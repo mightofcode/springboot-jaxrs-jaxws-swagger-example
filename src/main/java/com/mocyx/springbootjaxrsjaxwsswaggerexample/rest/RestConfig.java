@@ -1,4 +1,4 @@
-package com.mocyx.springbootjaxrsjaxwsswaggerexample.config;
+package com.mocyx.springbootjaxrsjaxwsswaggerexample.rest;
 
 import com.google.common.collect.Lists;
 import com.mocyx.springbootjaxrsjaxwsswaggerexample.rest.RestExample;

@@ -1,9 +1,9 @@
 ## swagger-ui:   
 http://127.0.0.1:8080/swagger-ui/index.html 
-
+## CXF api page
+http://127.0.0.1:8080/service
 ## REST API:
 http://127.0.0.1:8080/service/api/apiRest
-
 ## SOAP API WSDL:
 http://127.0.0.1:8080/service/Hello?wsdl
 

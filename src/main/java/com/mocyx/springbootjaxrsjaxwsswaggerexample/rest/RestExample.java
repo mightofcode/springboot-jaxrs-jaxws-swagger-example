@@ -1,5 +1,7 @@
 package com.mocyx.springbootjaxrsjaxwsswaggerexample.rest;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.GET;

@@ -2,6 +2,7 @@ package com.mocyx.springbootjaxrsjaxwsswaggerexample.rest;
 
 import com.google.common.collect.Lists;
 import com.mocyx.springbootjaxrsjaxwsswaggerexample.rest.RestExample;
+import org.apache.cxf.jaxrs.swagger.Swagger2Feature;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -31,6 +32,7 @@ public class RestConfig {
         endpoint.setBus(bus);
         endpoint.setAddress("/api");
         endpoint.setServiceBeans(Lists.newArrayList(restExample));
+        //endpoint.setFeatures(Lists.newArrayList(new Swagger2Feature()));
         return endpoint.create();
     }
 }
